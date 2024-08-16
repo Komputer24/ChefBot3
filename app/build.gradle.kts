@@ -8,11 +8,14 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.chefbot3"
+        // Change
+        applicationId = "com.example2.chefbot3"
         minSdk = 21
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        // Change
+        versionCode = 2
+        // Change
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

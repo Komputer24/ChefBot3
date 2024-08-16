@@ -121,7 +121,7 @@ class MainActivity : ComponentActivity() {
                                         launch {
                                             val inputContent = content {
                                                 image(bitmap!!)
-                                                text("If the image you get is of the inside of a fridge, then reply with a possible recipe the person could make with the contents as well as the steps to do it, around 150 words, if it's anything else, mention how the user must have mistakenly uploaded the wrong image and describe what the image is displaying instead in 60 words")
+                                                text("If the image you get is of the inside of a fridge, then reply with a possible recipe the person could make with the contents as well as the steps to do it and at the very top state the name of the dish in bold text, if it's anything else, mention how the user must have mistakenly uploaded the wrong image and describe what the image is displaying instead in 20 words")
                                             }
                                             generatedText = geminiGeneration(inputContent).toString()
                                         }
